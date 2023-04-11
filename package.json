@@ -1,8 +1,8 @@
 {
-  "name": "my-module",
+  "name": "nuxt-elastic-cache",
   "version": "1.0.0",
   "description": "My new Nuxt module",
-  "repository": "your-org/my-module",
+  "repository": "your-org/nuxt-elastic-cache",
   "license": "MIT",
   "type": "module",
   "exports": {
