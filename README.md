@@ -14,7 +14,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Flexible fully transparent cache middleware for Nuxt3 SSR rendering with Redis support.
+Flexible fully transparent cache middleware for Nuxt3 SSR rendering with Redis support
 
 [//]: # (- [✨ &nbsp;Release Notes]&#40;/CHANGELOG.md&#41;)
 
@@ -82,12 +82,12 @@ export default defineNuxtConfig({
 
 ## Configuration
 ### Top level configuration
-| Option  | Type                                        |required|Description                    | Default |
-|---------|---------------------------------------------|--------|-------------------------------|---------|
-| `enabled` | `boolean`                                   |No      |To enable/disable the SSR cache| `true`    |
-| `storage` | `Storage`                                   |No      |Config storage for cache       | `undefined` |
-| `pages`   | `string\|RegExp\| Array<string\| RegExp>`   |No|Pages to be cached|`[]`|
-| `key`     | `(req: IncomingMessage) => string \| false` |No|Can be used to generate custom key. Return falsy value to bypass cache|`undefined`|
+| Option  | Type                                        |required|Description                    | Default            |
+|---------|---------------------------------------------|--------|-------------------------------|--------------------|
+| `enabled` | `boolean`                                   |No      |To enable/disable the SSR cache| `true`             |
+| `storage` | `Storage`                                   |No      |Config storage for cache       | `undefined`        |
+| `pages`   | `string\|RegExp\| Array<string\| RegExp>`   |No|Pages to be cached| `[]`               |
+| `key`     | `(req: IncomingMessage) => string \| false` |No|Can be used to generate custom key. Return falsy value to bypass cache| `(req) => req.url` |
 
 ### Storage configuration
 | Option     | Type                  | Required  | Description                                                                                    | Default  |
