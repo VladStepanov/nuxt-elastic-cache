@@ -1,6 +1,6 @@
 {
   "name": "nuxt-elastic-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flexible fully transparent cache middleware for Nuxt3 SSR rendering with Redis support",
   "repository": "https://github.com/VladStepanov/nuxt-elastic-cache",
   "license": "MIT",
