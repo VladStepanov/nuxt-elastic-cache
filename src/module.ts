@@ -55,6 +55,8 @@ export default defineNuxtModule<ModuleOptions>({
 
     const options = sanitizeOptions(_options)
 
+    nuxt.options.build.transpile.push('minimatch', 'lru-cache')
+
     const { resolve } = createResolver(import.meta.url)
 
     nuxt.hook('nitro:config', (nitro) => {

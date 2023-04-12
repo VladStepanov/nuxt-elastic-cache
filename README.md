@@ -131,6 +131,9 @@ npm run test:watch
 npm run release
 ```
 
+# Caveat
+**important security warning**: don't load secret keys such as user credential on the server for cached pages. this is because they will cache for all users!
+
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-elastic-cache/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/nuxt-elastic-cache

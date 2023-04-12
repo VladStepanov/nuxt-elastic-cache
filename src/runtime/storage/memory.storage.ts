@@ -1,4 +1,4 @@
-import { LRUCache } from 'lru-cache'
+import LRUCache from 'lru-cache'
 import { CacheStorage } from "./interface.storage";
 import { ModuleOptions } from "../../module";
 
